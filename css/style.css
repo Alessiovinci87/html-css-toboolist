@@ -1,6 +1,18 @@
 /*
 reset
 */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: #F6F8F9;
 }
@@ -10,11 +22,6 @@ header {
     margin-bottom: 50px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 h1 {
     display: inline-block;
@@ -24,4 +31,37 @@ h1 {
 
 #main-logo{
     vertical-align: middle;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.check {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.done {
+    border-color: green;
+    color: green;
+}
+
+.line-height {
+    padding: 30px;
+    line-height: 30px;
+}
+
+.not-done{
+    border-color: red;
+    color: red;
 }
